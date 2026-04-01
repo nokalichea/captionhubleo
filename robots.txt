@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://captiongeneratorbyleo.netlify.app/sitemap.xml
+Sitemap: https://captionhubleo.netlify.app/sitemap.xml
