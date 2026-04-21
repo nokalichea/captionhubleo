@@ -1,495 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8626625213914673"
-     crossorigin="anonymous"></script>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Caption Generator by Leo - Multi Language Captions and Status Ideas</title>
-  <meta name="description" content="Find English, Malayalam, Hindi and Tamil captions, friendship captions, selfie captions, short captions, Instagram bio ideas and WhatsApp status ideas for social media posts." />
-  <meta name="keywords" content="caption generator, instagram captions, malayalam captions, hindi captions, tamil captions, friendship captions, selfie captions, short captions, instagram bio ideas, whatsapp status" />
-  <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
-    :root {
-      --bg1: #020617;
-      --bg2: #0f172a;
-      --card: rgba(17, 24, 39, 0.9);
-      --border: rgba(148, 163, 184, 0.18);
-      --text: #ffffff;
-      --muted: #cbd5e1;
-      --green: #22c55e;
-      --green-soft: #86efac;
-      --shadow: 0 18px 40px rgba(0, 0, 0, 0.28);
-    }
-
-    body {
-      font-family: Arial, sans-serif;
-      background: radial-gradient(circle at top, #1e293b 0%, #0f172a 35%, #020617 100%);
-      color: var(--text);
-      line-height: 1.6;
-    }
-
-    .container {
-      width: 90%;
-      max-width: 1180px;
-      margin: auto;
-    }
-
-    header {
-      background: rgba(2, 6, 23, 0.85);
-      backdrop-filter: blur(10px);
-      border-bottom: 1px solid var(--border);
-      position: sticky;
-      top: 0;
-      z-index: 20;
-    }
-
-    nav {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 14px;
-      padding: 16px 0;
-    }
-
-    .logo {
-      font-size: 1.45rem;
-      font-weight: bold;
-      letter-spacing: 0.3px;
-    }
-
-    .logo span {
-      color: var(--green);
-    }
-
-    .nav-links {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-    }
-
-    .nav-links a {
-      color: white;
-      text-decoration: none;
-      padding: 8px 12px;
-      border-radius: 10px;
-      font-size: 0.95rem;
-      transition: 0.2s ease;
-    }
-
-    .nav-links a:hover {
-      background: rgba(34, 197, 94, 0.12);
-      color: var(--green-soft);
-    }
-
-    .hero {
-      padding: 78px 0 36px;
-    }
-
-    .hero-box {
-      background: linear-gradient(135deg, rgba(17,24,39,0.95), rgba(15,23,42,0.92));
-      border: 1px solid var(--border);
-      border-radius: 24px;
-      padding: 42px 30px;
-      box-shadow: var(--shadow);
-      text-align: center;
-    }
-
-    .badge {
-      display: inline-block;
-      padding: 7px 14px;
-      border-radius: 999px;
-      background: rgba(34, 197, 94, 0.12);
-      border: 1px solid rgba(34, 197, 94, 0.25);
-      color: var(--green-soft);
-      font-size: 0.9rem;
-      margin-bottom: 16px;
-    }
-
-    .hero h1 {
-      font-size: 3rem;
-      line-height: 1.15;
-      margin-bottom: 14px;
-    }
-
-    .hero p {
-      max-width: 860px;
-      margin: 0 auto;
-      color: var(--muted);
-      font-size: 1.05rem;
-    }
-
-    .hero-actions {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 12px;
-      margin-top: 24px;
-    }
-
-    .btn {
-      display: inline-block;
-      padding: 12px 22px;
-      border-radius: 12px;
-      text-decoration: none;
-      font-weight: bold;
-      transition: 0.2s ease;
-    }
-
-    .btn-primary {
-      background: var(--green);
-      color: #052e16;
-    }
-
-    .btn-primary:hover {
-      background: #4ade80;
-      transform: translateY(-1px);
-    }
-
-    .btn-secondary {
-      background: rgba(30, 41, 59, 0.9);
-      color: white;
-      border: 1px solid var(--border);
-    }
-
-    .btn-secondary:hover {
-      background: rgba(51, 65, 85, 0.95);
-    }
-
-    .section {
-      padding: 28px 0;
-    }
-
-    .section-title {
-      margin-bottom: 18px;
-    }
-
-    .section-title h2 {
-      font-size: 2rem;
-      margin-bottom: 8px;
-    }
-
-    .section-title p {
-      color: var(--muted);
-      max-width: 820px;
-    }
-
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-      gap: 20px;
-    }
-
-    .card {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 20px;
-      padding: 24px;
-      box-shadow: var(--shadow);
-      transition: 0.22s ease;
-      height: 100%;
-    }
-
-    .card:hover {
-      transform: translateY(-4px);
-      border-color: rgba(34, 197, 94, 0.28);
-    }
-
-    .card h3, .card h2 {
-      margin-bottom: 10px;
-    }
-
-    .card p {
-      color: var(--muted);
-    }
-
-    .card a {
-      display: inline-block;
-      margin-top: 14px;
-      color: var(--green-soft);
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    .info-box {
-      background: linear-gradient(135deg, rgba(17,24,39,0.96), rgba(2,6,23,0.94));
-      border: 1px solid var(--border);
-      border-radius: 22px;
-      padding: 28px;
-      box-shadow: var(--shadow);
-    }
-
-    .mini-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 16px;
-      margin-top: 18px;
-    }
-
-    .mini-item {
-      background: rgba(15, 23, 42, 0.9);
-      border: 1px solid var(--border);
-      border-radius: 16px;
-      padding: 18px;
-    }
-
-    .mini-item h3 {
-      margin-bottom: 8px;
-      font-size: 1.05rem;
-    }
-
-    .mini-item p {
-      color: var(--muted);
-      font-size: 0.95rem;
-    }
-
-    footer {
-      margin-top: 50px;
-      padding: 32px 0;
-      border-top: 1px solid var(--border);
-      background: rgba(2, 6, 23, 0.95);
-    }
-
-    footer p, footer a {
-      color: var(--muted);
-      text-decoration: none;
-    }
-
-    .footer-links {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 15px;
-      margin-top: 12px;
-    }
-
-    @media (max-width: 900px) {
-      .mini-grid {
-        grid-template-columns: 1fr;
-      }
-
-      .hero h1 {
-        font-size: 2.35rem;
-      }
-    }
-
-    @media (max-width: 700px) {
-      nav {
-        flex-direction: column;
-        align-items: flex-start;
-      }
-
-      .hero-box {
-        padding: 32px 20px;
-      }
-
-      .hero h1 {
-        font-size: 2rem;
-      }
-
-      .nav-links {
-        gap: 8px;
-      }
-
-      .nav-links a {
-        padding: 7px 10px;
-        font-size: 0.92rem;
-      }
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Caption Generator by Leo</title>
+<meta name="description" content="Find the best captions for Instagram, WhatsApp and social media. Explore attitude, love, funny, friendship and more captions.">
+<style>
+body{font-family:Arial;background:#0f172a;color:#fff;margin:0}
+.container{width:90%;max-width:1000px;margin:auto;padding:30px 0}
+.card{background:#111827;padding:20px;border-radius:15px;margin-bottom:20px}
+a{color:#22c55e;text-decoration:none}
+</style>
 </head>
 <body>
-  <header>
-    <div class="container">
-      <nav>
-        <div class="logo">Caption <span>Generator</span> by Leo</div>
-        <div class="nav-links">
-          <a href="index.html">Home</a>
-          <a href="english-captions.html">English</a>
-          <a href="malayalam-captions.html">Malayalam</a>
-          <a href="hindi-captions.html">Hindi</a>
-          <a href="tamil-captions.html">Tamil</a>
-          <a href="attitude-captions.html">Attitude</a>
-          <a href="love-captions.html">Love</a>
-          <a href="funny-captions.html">Funny</a>
-          <a href="sad-captions.html">Sad</a>
-          <a href="motivational-captions.html">Motivational</a>
-          <a href="friendship-captions.html">Friendship</a>
-          <a href="selfie-captions.html">Selfie</a>
-          <a href="short-captions.html">Short</a>
-          <a href="instagram-bio-ideas.html">Bio Ideas</a>
-          <a href="whatsapp-status.html">WhatsApp Status</a>
-        </div>
-      </nav>
-    </div>
-  </header>
 
-  <section class="hero">
-    <div class="container">
-      <div class="hero-box">
-        <div class="badge">Captions, bio ideas and status pages in one website</div>
-        <h1>Find Better Captions for Every Mood, Language and Social Media Style</h1>
-        <p>
-          Welcome to Caption Generator by Leo. This website helps users find useful and stylish captions for Instagram, WhatsApp, Facebook and other social media platforms. It includes language-based pages, category pages, selfie captions, friendship captions, short captions, Instagram bio ideas and WhatsApp status ideas.
-        </p>
-        <div class="hero-actions">
-          <a href="english-captions.html" class="btn btn-primary">Explore Captions</a>
-          <a href="instagram-bio-ideas.html" class="btn btn-secondary">Open Bio Ideas</a>
-        </div>
-      </div>
-    </div>
-  </section>
+<div class="container">
 
-  <section class="section">
-    <div class="container">
-      <div class="section-title">
-        <h2>Browse by Language</h2>
-        <p>Users can open dedicated language pages directly instead of searching through mixed content.</p>
-      </div>
-      <div class="grid">
-        <div class="card">
-          <h3>English Captions</h3>
-          <p>Stylish, short, romantic, funny, sad and motivational captions in English for daily posts and reels.</p>
-          <a href="english-captions.html">Open English Page</a>
-        </div>
-        <div class="card">
-          <h3>Malayalam Captions</h3>
-          <p>Malayalam caption ideas for Instagram posts, WhatsApp status, emotional updates and daily moments.</p>
-          <a href="malayalam-captions.html">Open Malayalam Page</a>
-        </div>
-        <div class="card">
-          <h3>Hindi Captions</h3>
-          <p>Hindi captions for attitude posts, love posts, friendship updates and emotional social media posts.</p>
-          <a href="hindi-captions.html">Open Hindi Page</a>
-        </div>
-        <div class="card">
-          <h3>Tamil Captions</h3>
-          <p>Tamil captions for selfies, status posts, reels, motivation, friends and meaningful daily updates.</p>
-          <a href="tamil-captions.html">Open Tamil Page</a>
-        </div>
-      </div>
-    </div>
-  </section>
+<div class="card">
+<h1>Caption Generator by Leo</h1>
+<p>This website helps you find captions for Instagram, WhatsApp and social media posts. You can explore different categories like friendship, love, attitude, funny and more.</p>
+<p>Instead of searching everywhere, this site gives you all captions in one place with proper categories.</p>
+</div>
 
-  <section class="section">
-    <div class="container">
-      <div class="section-title">
-        <h2>Browse by Caption Category</h2>
-        <p>These pages help users find the exact mood or style they want without wasting time.</p>
-      </div>
-      <div class="grid">
-        <div class="card">
-          <h3>Attitude Captions</h3>
-          <p>Bold and stylish captions for strong personality posts, selfies, gym posts, bike photos and more.</p>
-          <a href="attitude-captions.html">Open Attitude Page</a>
-        </div>
-        <div class="card">
-          <h3>Love Captions</h3>
-          <p>Romantic and heartfelt captions for couple pictures, anniversaries, memories and soft emotional posts.</p>
-          <a href="love-captions.html">Open Love Page</a>
-        </div>
-        <div class="card">
-          <h3>Funny Captions</h3>
-          <p>Witty and relatable captions for daily life, random selfies, friend group photos and casual fun posts.</p>
-          <a href="funny-captions.html">Open Funny Page</a>
-        </div>
-        <div class="card">
-          <h3>Sad Captions</h3>
-          <p>Deep and emotional captions for heartbreak, loneliness, reflective photos and quiet mood posts.</p>
-          <a href="sad-captions.html">Open Sad Page</a>
-        </div>
-        <div class="card">
-          <h3>Motivational Captions</h3>
-          <p>Inspiring captions for study posts, gym photos, work progress and personal growth content.</p>
-          <a href="motivational-captions.html">Open Motivational Page</a>
-        </div>
-        <div class="card">
-          <h3>Friendship Captions</h3>
-          <p>Funny, emotional and meaningful captions for best friends, group photos, hangouts and memories.</p>
-          <a href="friendship-captions.html">Open Friendship Page</a>
-        </div>
-        <div class="card">
-          <h3>Selfie Captions</h3>
-          <p>Stylish, short, cute and attitude captions for selfies, mirror photos and profile picture posts.</p>
-          <a href="selfie-captions.html">Open Selfie Page</a>
-        </div>
-        <div class="card">
-          <h3>Short Captions</h3>
-          <p>One-line, clean and stylish short captions for selfies, reels, status updates and daily posts.</p>
-          <a href="short-captions.html">Open Short Page</a>
-        </div>
-      </div>
-    </div>
-  </section>
+<div class="card">
+<h2>Caption Categories</h2>
+<ul>
+<li><a href="friendship-captions.html">Friendship Captions</a></li>
+<li><a href="love-captions.html">Love Captions</a></li>
+<li><a href="attitude-captions.html">Attitude Captions</a></li>
+<li><a href="funny-captions.html">Funny Captions</a></li>
+<li><a href="sad-captions.html">Sad Captions</a></li>
+<li><a href="motivational-captions.html">Motivational Captions</a></li>
+</ul>
+</div>
 
-  <section class="section">
-    <div class="container">
-      <div class="section-title">
-        <h2>Browse More Social Media Ideas</h2>
-        <p>These extra pages make the website more useful and help users beyond just captions.</p>
-      </div>
-      <div class="grid">
-        <div class="card">
-          <h3>Instagram Bio Ideas</h3>
-          <p>Stylish, simple, cute, attitude and professional bio ideas for better Instagram profiles.</p>
-          <a href="instagram-bio-ideas.html">Open Bio Ideas Page</a>
-        </div>
-        <div class="card">
-          <h3>WhatsApp Status Ideas</h3>
-          <p>Short, emotional, love, attitude and motivational status ideas for daily WhatsApp updates.</p>
-          <a href="whatsapp-status.html">Open WhatsApp Status Page</a>
-        </div>
-      </div>
-    </div>
-  </section>
+<div class="card">
+<h2>Languages</h2>
+<ul>
+<li><a href="english-captions.html">English Captions</a></li>
+<li><a href="malayalam-captions.html">Malayalam Captions</a></li>
+<li><a href="hindi-captions.html">Hindi Captions</a></li>
+<li><a href="tamil-captions.html">Tamil Captions</a></li>
+</ul>
+</div>
 
-  <section class="section">
-    <div class="container">
-      <div class="info-box">
-        <h2>Why captions matter on social media</h2>
-        <p>
-          A good caption can completely change how a post feels. On Instagram, WhatsApp, Facebook and short video platforms, the caption adds personality, emotion and context. A simple photo with the right words can feel more premium, more relatable and more memorable.
-        </p>
-        <p>
-          Some users want attitude captions for stylish selfies. Some want emotional captions for quiet moments. Others need funny lines, romantic words or motivational text for study, gym and success posts. That is why this website is divided into separate pages and categories.
-        </p>
-        <p>
-          Instead of showing random captions in one weak page, this website helps users directly find the exact caption style they want. That makes the browsing experience better and helps search engines understand the content more clearly.
-        </p>
+<div class="card">
+<h2>About This Website</h2>
+<p>This site is built to provide high quality caption content for social media users. Each page contains multiple caption styles and sections so users can easily find what they need.</p>
+</div>
 
-        <div class="mini-grid">
-          <div class="mini-item">
-            <h3>Better SEO Structure</h3>
-            <p>Separate pages and internal links help search engines understand what each page is about.</p>
-          </div>
-          <div class="mini-item">
-            <h3>Better User Experience</h3>
-            <p>Visitors can move from language pages to category pages, selfie pages, bio ideas and status pages easily.</p>
-          </div>
-          <div class="mini-item">
-            <h3>More Useful Content</h3>
-            <p>A website with multiple useful pages looks stronger than a thin one-page site with very little content.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+<div class="card">
+<h2>Quick Links</h2>
+<ul>
+<li><a href="about.html">About</a></li>
+<li><a href="contact.html">Contact</a></li>
+<li><a href="privacy.html">Privacy Policy</a></li>
+<li><a href="terms.html">Terms</a></li>
+</ul>
+</div>
 
-  <footer>
-    <div class="container">
-      <p><strong>Caption Generator by Leo</strong></p>
-      <div class="footer-links">
-        <a href="about.html">About Us</a>
-        <a href="contact.html">Contact Us</a>
-        <a href="privacy.html">Privacy Policy</a>
-        <a href="terms.html">Terms & Conditions</a>
-      </div>
-    </div>
-  </footer>
+</div>
+
 </body>
 </html>
